@@ -1,0 +1,5 @@
+s, t = map(str, input().split())
+old_len = len(s)
+s = s.replace(t, "")
+new_len = len(s)
+print((old_len-new_len)//len(t))
